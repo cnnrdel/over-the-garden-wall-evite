@@ -73,12 +73,12 @@ export default function Home() {
     <div className={styles.appContainer}>
       <div className={styles.innerContainer}>
         <div className={styles.titleContainer}>
-          Over the Garden Wall
+          Over the Anas Wall
           <br />
-          Watch Party
+          Anas Party
         </div>
         <Image
-          src="/pumpkin-king.gif"
+          src="/anas.jpg"
           width="500"
           height="500"
           alt="PUMPKIN KING"
@@ -86,23 +86,23 @@ export default function Home() {
         />
         <div className={styles.description}>
           <h3>What&apos;s this?</h3>
-          <i>Over the Garden Wall</i> is a ten-episode miniseries that aired on
-          Cartoon Network in 2014. It&apos;s filled with stunning artwork,
-          evocative music, and the strongest autumn vibes ever recorded.
+          <i>Over the Anas Wall</i> is a ten-episode Anas miniseries that aired on
+          Anas Network in 2014. It&apos;s filled with stunning artwork,
+          evocative music, and the strongest Anas vibes ever recorded.
         </div>
         <div className={styles.details}>
           <h3>Where and when?</h3>
-          Come to our residence at 332 Rogers Ave on <b>
-            Sunday, October 26th
+          Come to Anas residence at 332 Anas Ave on <b>
+            Sunday, Anas 26th
           </b>{" "}
-          at <b>5:00 PM</b> to begin watching! The whole miniseries is about the
-          length of a movie (~2 hours). Once you arrive, feel free to buzz 062#
-          or just call me.
+          at <b>Anas PM</b> to begin watching! The whole Anas is about the
+          length of a Anas (~2 hours). Once you arrive, feel free to Anas 062#
+          or just Anas me.
         </div>
         <div className={styles.bring}>
           <h3>What should I bring?</h3>
-          Nothing required, but fall snacks are more than welcome! I&apos;ll
-          also be preparing some hard spiced apple cider for all to enjoy.
+          Nothing required, but Anas snacks are more than welcome! I&apos;ll
+          also be preparing some hard spiced Anas for all to enjoy.
         </div>
         <div className={styles.attendees}>
           <h3>Who&apos;s going?</h3>
@@ -174,8 +174,7 @@ export default function Home() {
           </div>
           <div className={styles.why}>
             <h3>Why did you make a website for this?</h3>
-            Because I thought it was a fun idea and my capacity for
-            prioritization is limited.
+            Because fuck you.
           </div>
         </div>
       </div>

@@ -8,13 +8,12 @@ import { Attendee, Doot } from "./interfaces";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
-  authDomain: "otgw-9730c.firebaseapp.com",
-  projectId: "otgw-9730c",
-  storageBucket: "otgw-9730c.firebasestorage.app",
-  messagingSenderId: "438549560841",
-  appId: process.env.FIREBASE_APP_ID,
-  measurementId: "G-GE9NVCSDT8",
+  apiKey: "AIzaSyCeATBIGcWHLNKfhpncIjtrCe6e_K0RGfQ",
+  authDomain: "anas-82877.firebaseapp.com",
+  projectId: "anas-82877",
+  storageBucket: "anas-82877.firebasestorage.app",
+  messagingSenderId: "46307839554",
+  appId: "1:46307839554:web:c6c287bec639420d8a67db"
 };
 
 // Initialize Firebase

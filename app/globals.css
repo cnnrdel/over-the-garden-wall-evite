@@ -1,9 +1,10 @@
 :root {
-  --background: #1f1d1d;
+  --background: #008643;
   --foreground: #e5cfbe;
   --gray: #89837e;
   --accent: #d8721f;
   --red: #ee4a13;
+  --text-color: #C3FFD0;
 }
 
 html,
