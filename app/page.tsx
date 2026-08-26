@@ -78,7 +78,7 @@ export default function Home() {
           Anas Party
         </div>
         <Image
-          src="/anas.jpg"
+          src="/anas.png"
           width="500"
           height="500"
           alt="PUMPKIN KING"

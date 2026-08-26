@@ -1,16 +1,11 @@
 import type { Metadata } from "next";
-import { Amarante, Karla } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 
-const amarante = Amarante({
-  variable: "--font-amarante",
+const roboto = Roboto({
+  variable: "--font-roboto",
   subsets: ["latin"],
-  weight: "400",
-});
-
-const karla = Karla({
-  variable: "--font-karla",
-  subsets: ["latin"],
+  weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {
@@ -25,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${amarante.variable} ${karla.variable}`}>
+      <body className={roboto.variable}>
         {children}
       </body>
     </html>
