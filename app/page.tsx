@@ -148,7 +148,7 @@ export default function Home() {
               <ul>
                 {doots?.toReversed().map((doot) => (
                   <li key={`${doot.dooter}:${doot.timestamp}`}>
-                    {doot.dooter} dooted at {formatTime(doot.timestamp)}
+                    {doot.dooter} nudged at {formatTime(doot.timestamp)}
                   </li>
                 ))}
               </ul>
