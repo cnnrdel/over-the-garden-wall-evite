@@ -137,7 +137,7 @@ export default function Home() {
           <h3>Doot</h3>
           <div>Doot as {nameForDooter}:</div>
           <button onClick={dootCallback} className={styles.dootImageButton}>
-            <Image src="/doot.png" width="50" height="50" alt="doot" />
+            <Image src="/doot.png" width="178" height="100" alt="doot" />
           </button>
           <div className={styles.dootLog}>
             <ShowWhenReady
