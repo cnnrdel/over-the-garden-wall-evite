@@ -166,7 +166,7 @@ export default function Home() {
                 <ol>
                   {leaderboard?.slice(0, 10).map(([name, doots]) => (
                     <li key={name}>
-                      {name} ({doots} {doots === 1 ? "doot" : "doots"})
+                      {name} ({doots} {doots === 1 ? "nudge" : "nudges"})
                     </li>
                   ))}
                 </ol>
