@@ -9,8 +9,8 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Over the Garden Wall e-vite",
-  description: "We're here to burgle yer turts!",
+  title: "Anas e-vite",
+  description: "Anas or die",
 };
 
 export default function RootLayout({
