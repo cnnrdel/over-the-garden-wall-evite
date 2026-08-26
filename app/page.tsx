@@ -72,11 +72,11 @@ export default function Home() {
   return (
     <div className={styles.appContainer}>
       <div className={styles.innerContainer}>
-        <div className={styles.titleContainer}>
+        {/* <div className={styles.titleContainer}>
           Over the Anas Wall
           <br />
           Anas Party
-        </div>
+        </div> */}
         <Image
           src="/anas.png"
           width="500"
@@ -85,25 +85,21 @@ export default function Home() {
           className={styles.headerGif}
         />
         <div className={styles.description}>
-          <h3>What&apos;s this?</h3>
-          <i>Over the Anas Wall</i> is a ten-episode Anas miniseries that aired on
-          Anas Network in 2014. It&apos;s filled with stunning artwork,
-          evocative music, and the strongest Anas vibes ever recorded.
+          <h3>WHAT IS THIS?</h3>
+          This is a birthday website for my birthday. It was inspired by Marcos(and used his GitHub?), birthed by Connor, and Qashka has done stuff that I do not know because it is a surprise. I don’t like partiful so I’m using this and might use it for future events! 
+          <br/><br/>Please type in ur name if you wanna come to my BIRTHDAY!
         </div>
+        <br/>
         <div className={styles.details}>
-          <h3>Where and when?</h3>
-          Come to Anas residence at 332 Anas Ave on <b>
-            Sunday, Anas 26th
-          </b>{" "}
-          at <b>Anas PM</b> to begin watching! The whole Anas is about the
-          length of a Anas (~2 hours). Once you arrive, feel free to Anas 062#
-          or just Anas me.
+          <h3>WHEN?</h3>
+          On <b><u>September 26th 6:00 PM EST,</u></b> I’m having my birthday party and I’m gonna go crazy!!!!! My birthday is on the 24th though so wish me on time. Plans are a bit unsure at the moment because I need to figure out how many people are coming.
         </div>
+        <br/>
         <div className={styles.bring}>
-          <h3>What should I bring?</h3>
-          Nothing required, but Anas snacks are more than welcome! I&apos;ll
-          also be preparing some hard spiced Anas for all to enjoy.
+          <h3>CURRENT PLAN:</h3>
+          We meet at <b><u>Tompkins square park</u></b> at 6 pm – where we will have a picnic. Whoever wants to hang out at night can come over to my place for the PARTY!! It will be fun for me!!!!
         </div>
+        <br/>
         <div className={styles.attendees}>
           <h3>Who&apos;s going?</h3>
           <ShowWhenReady
@@ -118,9 +114,12 @@ export default function Home() {
             </ul>
           </ShowWhenReady>
         </div>
+        <br/>
+        <br/>
         <div className={styles.attend}>
           <h3>Can I come?</h3>
           Yes!
+          <br/>
           <div className={styles.signUp}>
             <input
               value={name}
@@ -128,11 +127,13 @@ export default function Home() {
               className={styles.nameInput}
               placeholder="name"
             />
+            
             <button onClick={registerCallback} disabled={name.length === 0}>
               I&apos;m going!
             </button>
           </div>
         </div>
+        <br/>
         <div className={styles.dootContainer}>
           <h3>Nudge</h3>
           <div>Nudge as {nameForDooter}:</div>
@@ -172,10 +173,7 @@ export default function Home() {
               </ShowWhenReady>
             </div>
           </div>
-          <div className={styles.why}>
-            <h3>Why did you make a website for this?</h3>
-            Because fuck you.
-          </div>
+          <br/>
         </div>
       </div>
     </div>
