@@ -134,8 +134,8 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.dootContainer}>
-          <h3>Doot</h3>
-          <div>Doot as {nameForDooter}:</div>
+          <h3>Nudge</h3>
+          <div>Nudge as {nameForDooter}:</div>
           <button onClick={dootCallback} className={styles.dootImageButton}>
             <Image src="/doot.png" width="178" height="100" alt="doot" />
           </button>
@@ -143,7 +143,7 @@ export default function Home() {
             <ShowWhenReady
               loading={loading}
               error={Boolean(error)}
-              errorMessage="couldn't fetch doots!"
+              errorMessage="couldn't fetch nudges!"
             >
               <ul>
                 {doots?.toReversed().map((doot) => (
@@ -155,7 +155,7 @@ export default function Home() {
             </ShowWhenReady>
           </div>
           <div className={styles.topDooters}>
-            <h3>Top dooters</h3>
+            <h3>Top Nudgers</h3>
             <div className={styles.dootLeaderboard}>
               <ShowWhenReady
                 loading={loading}
