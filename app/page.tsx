@@ -100,6 +100,15 @@ export default function Home() {
           We meet at <b><u>Tompkins square park</u></b> at 6 pm – where we will have a picnic. Whoever wants to hang out at night can come over to my place for the PARTY!! It will be fun for me!!!!
         </div>
         <br/>
+        <div className={styles.bring}>
+          <h3>WHAT TO BRING:</h3>
+          I don’t really need gifts because I don’t know what I would want to be gifted so don’t worry. But I WANT A CARD. Write/draw/create a card and don’t feel any pressure to get any gifts! I would also like it if you draw a cute picture of me and you together.
+          <br/>
+          <br/>
+          PS: make sure to lmk if ur bringing plus ones also double check it a few days before the party to check for any updates! 
+        </div>
+        <br/>
+
         <div className={styles.attendees}>
           <h3>Who&apos;s going?</h3>
           <ShowWhenReady
