@@ -95,7 +95,7 @@ export default function Home() {
         />
         <div className={styles.description}>
           <h3>WHAT IS THIS?</h3>
-          This is a birthday website for my birthday. It was inspired by Marcos(and used his GitHub?), birthed by Connor, and Qashka has done stuff that I do not know because it is a surprise. I don’t like partiful so I’m using this and might use it for future events! 
+          This is a birthday website for my birthday. It is very similar and uses the code as one made by Marcos, birthed and molded by Connor, and Qashka made the posters and designs. I don’t like partiful so I’m using this and might use it for future events! 
           <br/><br/>Please type in ur name if you wanna come to my BIRTHDAY!
         </div>
         <br/>
@@ -115,11 +115,14 @@ export default function Home() {
           <br/>
           <br/>
           PS: make sure to lmk if ur bringing plus ones also double check it a few days before the party to check for any updates! 
+          <br/>
+          <br/>
+          bring drinks and picnic blankets if u can please
         </div>
         <br/>
 
         <div className={styles.attendees}>
-          <h3>Who&apos;s going?</h3>
+          <h3>WHO&apos;S GOING?</h3>
           <ShowWhenReady
             loading={loading}
             error={Boolean(error)}
@@ -135,7 +138,7 @@ export default function Home() {
         <br/>
         <br/>
         <div className={styles.attend}>
-          <h3>Can I come?</h3>
+          <h3>CAN I COME?</h3>
           Yes!
           <br/>
           <div className={styles.signUp}>
@@ -153,7 +156,7 @@ export default function Home() {
         </div>
         <br/>
         <div className={styles.dootContainer}>
-          <h3>Nudge</h3>
+          <h3>NUDGE</h3>
           <div>Nudge as {nameForDooter}:</div>
           <button onClick={dootCallback} className={styles.dootImageButton}>
             <Image src="/doot.png" width="178" height="100" alt="doot" />
@@ -174,7 +177,7 @@ export default function Home() {
             </ShowWhenReady>
           </div>
           <div className={styles.topDooters}>
-            <h3>Top Nudgers</h3>
+            <h3>TOP NUDGERS</h3>
             <div className={styles.dootLeaderboard}>
               <ShowWhenReady
                 loading={loading}
