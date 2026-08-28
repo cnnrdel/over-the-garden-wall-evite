@@ -79,10 +79,19 @@ export default function Home() {
         </div> */}
         <Image
           src="/anas.png"
-          width="500"
-          height="500"
+          width="548"
+          height="161"
+          alt="Anas"
+          className={styles.logoSticker}
+          priority
+        />
+        <Image
+          src="/poster.png"
+          width="900"
+          height="640"
           alt="PUMPKIN KING"
           className={styles.headerGif}
+          priority
         />
         <div className={styles.description}>
           <h3>WHAT IS THIS?</h3>

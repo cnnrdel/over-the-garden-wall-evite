@@ -3,6 +3,14 @@
   font-family: var(--font-roboto), Arial, Helvetica, sans-serif;
 }
 
+.logoSticker {
+  display: block;
+  width: 160px;
+  max-width: 45%;
+  height: auto;
+  margin: 0 auto 16px auto;
+}
+
 .headerGif {
   width: 100%;
   height: unset;
