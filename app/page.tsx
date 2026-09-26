@@ -93,6 +93,11 @@ export default function Home() {
           className={styles.headerGif}
           priority
         />
+        <div className={styles.details}>
+          <h3>🚨 UPDATE: 🚨</h3>
+          Hi everyone party time is now 7:30, I will have snacks! Please buzz 204, walk straight, take a right through the door, walk PAST the lift (elevator), take the first left, and walk straight till u reach the backyard where we will all be! No Picnic blankets needed but drinks and snacks are always helpful! Might be cold so wear a jack if u need but afterwards we will go up to my place and and have fun!!
+        </div>
+        <br/>
         <div className={styles.description}>
           <h3>WHAT IS THIS?</h3>
           This is a birthday website for my birthday. It is very similar and uses the code as one made by Marcos, birthed and molded by Connor, and Qashka made the posters and designs. I don’t like partiful so I’m using this and might use it for future events! 
